@@ -1,2 +1,2 @@
 # Softuni
-Softuni Fundamentals Module
+Softuni Courses

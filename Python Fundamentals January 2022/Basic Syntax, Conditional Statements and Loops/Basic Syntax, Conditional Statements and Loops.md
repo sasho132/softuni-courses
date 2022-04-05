@@ -100,68 +100,60 @@ You will be given **two strings**. **Transform the first** string into **the sec
 
 ## 14. Easter Bread
 
-Create a program that calculates how many loaves you can make with the budget you have.
- First, you will receive your budget. Then, you will receive the price for 1 kg flour. Here is the recipe for one bread:
+Create a program that **calculates** how many **loaves** you can make with the **budget** you **have**.
+ **First**, you will **receive** your **budget**. Then, you will **receive** the **price** for **1 kg flour**. Here is the **recipe** for **one** bread:
 
-* Eggs - 1 pack
-* Flour - 1 kg
-* Milk - 0.250 l
+* **Eggs - 1 pack**
+* **Flour - 1 kg**
+* **Milk - 0.250 l**
 
-Milk	0.250 l
-The price for 1 pack of eggs is 75% of the price for 1 kg flour. The price for 1l milk is 25% more than the price for 1 kg flour. Notice that you need 0.250l milk for one bread, and the calculated price is for 1l.
-Start cooking the loaves and keep making them until you have enough budget. Keep in mind that:
-* For every bread that you make, you will receive 3 colored eggs. 
-* For every 3rd bread you make, you will lose some of your colored eggs after receiving the usual 3 colored eggs for your bread. The count of eggs you will lose is calculated when you subtract 2 from your current count of loaves – ({current_bread_count} – 2)
+The **price for 1 pack of eggs** is **75%** of the **price for 1 kg flour**. The **price** for **1l milk** is **25% more** than the price for **1 kg flour**. Notice that you need **0.250l milk** for **one** bread, and the calculated price is for **1l**.
+**Start** cooking the loaves and **keep making** them until you have **enough budget**. Keep in mind that:
+* For **every** bread that you make, you will receive **3 colored eggs**. 
+* For **every 3rd** bread you make, you will lose some of your **colored** eggs **after receiving** the usual **3 colored eggs** for your bread. The count of eggs you will lose is calculated when you **subtract 2** from your **current count** of loaves – **({current_bread_count} – 2)**
 
-In the end, print the loaves of bread you made, the eggs you have gathered, and the money you have left, formatted to the 2nd decimal place, in the following format:
-"You made {number_of_bread} loaves of Easter bread! Now you have {colored_eggs} eggs and {money_left}BGN left."
+In the end, print the loaves of bread you made, the eggs you have gathered, and the money you have **left**, **formatted** to the **2nd decimal place**, in the following format:
+
+**"You made {number_of_bread} loaves of Easter bread! Now you have {colored_eggs} eggs and {money_left}BGN left."**
 
 ### Input / Constraints
-* On the 1st line, you will receive the budget – a real number in the range [0.0…100000.0]
-* On the 2nd line, you will receive the price for 1 kg flour – a real number in the range [0.0…100000.0]
+* On the **1st line**, you will receive the budget – a **real number** in the range [0.0…100000.0]
+* On the **2nd line**, you will receive the price for **1 kg flour** – a **real number** in the range [0.0…100000.0]
 * The input will always be in the correct format
-* You will always have a remaining budget
-* There will not be a case in which the eggs become a negative count
+* You will **always** have a **remaining budget**
+* There will **not** be a case in which the **eggs** become a **negative count**
 
 ### Output 
-* In the end, print the number of Easter bread you have made, the colored eggs you have gathered, and the money formatted to the 2nd decimal place in the format described above.
+* In the end, print the **number** of **Easter bread** you have made, the colored **eggs** you have gathered, and the **money formatted** to **the 2nd** decimal place in the format described above.
 
 
 ## 15. Christmas Spirit
 
-You will receive an allowed quantity for one type of decoration and days left until Christmas day to decorate the house.
-There are 4 types of decorations, and each piece costs a price
+You will receive an **allowed quantity** for **one type** of decoration and **days left** until Christmas day to decorate the house.
+There are **4 types** of decorations, and each piece costs a **price**
 * Ornament Set – 2$ per piece
 * Tree Skirt – 5$ per piece
 * Tree Garlands – 3$ per piece
 * Tree Lights – 15$ per piece
 
-Every second day you buy an Ornament Set quantity of times and increase your Christmas spirit by 5.
+Every **second day** you buy an **Ornament Set** quantity of times and **increase** your Christmas spirit by **5**.
 
-Every third day you buy Tree Skirts and Tree Garlands (both quantity of times) and increase your spirit by 13.
+Every **third day** you buy **Tree Skirts** and **Tree Garlands** (both quantity of times) and **increase** your spirit by **13**.
 
-Every fifth day you buy Tree Lights and increase your Christmas spirit by 17. If you have bought Tree Skirts and Tree Garlands on the same day, you additionally increase your spirit by 30.
+Every **fifth day** you buy **Tree Lights** and **increase** your Christmas spirit by **17**. If you have bought Tree Skirts and Tree Garlands on the **same day**, you **additionally increase** your spirit by **30**.
 
-Every tenth day you lose 20 points of the spirit because your cat ruins all tree decorations, and you should rebuild the tree and buy one piece of tree skirt, garlands, and lights. That is why you are forced to increase the allowed quantity with 2 at the beginning of every eleventh day.
+Every **tenth day** you **lose 20 points of the spirit** because your cat ruins all tree decorations, and you should rebuild the tree and buy **one** piece of tree **skirt**, **garlands**, and **lights**. That is why you are forced to **increase** the allowed **quantity with 2** at the **beginning** of every **eleventh day**.
 
-Also, if the last day is a tenth day, the cat demolishes even more and ruins the Christmas turkey, and you lose an additional 30 points of spirit.
+Also, if the **last day** is a **tenth day**, the cat demolishes even more and ruins the Christmas turkey, and you **lose** an additional **30 points of spirit**.
 
-In the end, you must print the total cost and the gained spirit.
+In the end, you must print the **total cost** and the **gained spirit**.
 
 ### Input / Constraints
-The input will consist of exactly 2 lines:
-* quantity – integer in the range [1…100]
-* days – integer in the range [1…100]
+The input will consist of **exactly 2 lines**:
+* quantity – **integer in the range [1…100]**
+* days – **integer in the range [1…100]**
 
 ### Output
-In the end, print the total cost and the total gained spirit in the following format:
-* "Total cost: {budget}"
-* "Total spirit: {totalSpirit}"
-
-
-
-
-
-
-
-
+In the end, print the **total cost** and the total gained **spirit** in the following format:
+* **"Total cost: {budget}"**
+* **"Total spirit: {totalSpirit}"**

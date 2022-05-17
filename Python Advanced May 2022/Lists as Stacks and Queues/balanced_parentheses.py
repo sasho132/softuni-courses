@@ -1,20 +1,20 @@
 parenthesis = list(input())
 opening_brackets = []
-balanced_paranthesis = True
+balanced_parenthesis = True
 
 for ch in parenthesis:
     if ch in '{, (, [':
         opening_brackets.append(ch)
     else:
         if not opening_brackets:
-            balanced_paranthesis = False
+            balanced_parenthesis = False
             break
         else:
             if opening_brackets.pop() + ch not in '{}()[]':
-                balanced_paranthesis = False
+                balanced_parenthesis = False
                 break
 
-if balanced_paranthesis:
+if balanced_parenthesis:
     print('YES')
 else:
     print('NO')

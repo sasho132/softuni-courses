@@ -1,5 +1,7 @@
+<h1 align="center">SoftUni courses</h1>
+<br />
 <p align="center">
-  <img width="350" src="/assets/Software-University-logo.png" alt="SoftUni cources">
+  <img width="350" src="/assets/Software-University-logo.png" alt="SoftUni courses">
 </p>
 <br />
 <br />

@@ -1,4 +1,5 @@
-<p><a href="https://softuni.bg/">
+<p><center>
+<a href="https://softuni.bg/">
 <img src="/assets/Software-University-logo.png" alt="Softuni" width="350">
 </a></p>
 

@@ -1,6 +1,3 @@
-from unicodedata import name
-
-
 num = int(input())
 names = set()
 

@@ -8,5 +8,4 @@ for el in text:
 
 sorted_characters = sorted(characters_dict)
 for current_element in sorted_characters:
-   print(f"{current_element}: {characters_dict[current_element]} time/s") 
-   
+    print(f"{current_element}: {characters_dict[current_element]} time/s")

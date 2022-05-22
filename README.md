@@ -2,9 +2,9 @@
   <img width="350" src="/assets/Software-University-logo.png" alt="SoftUni courses">
 </p>
 <br />
+<br />
+<br />
 <h2 align="left">SoftUni courses</h2>
-<br />
-<br />
 <br />
 
 | Python      | Certificate |

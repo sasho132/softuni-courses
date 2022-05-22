@@ -1,8 +1,9 @@
 <p align="center">
-  <img src="/assets/Software-University-logo.png" width="350" title="Softuni">
+  <img width="350" src="/assets/Software-University-logo.png" alt="SoftUni cources">
 </p>
-
-
+<br />
+<br />
+<br />
 
 | Python      | Certificate |
 | :---:       | :---: |

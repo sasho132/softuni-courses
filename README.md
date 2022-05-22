@@ -1,4 +1,4 @@
-<img align="center" src="/assets/Software-University-logo.png" alt="Softuni">
+<img align="center" src="/assets/Software-University-logo.png" alt="Softuni" width="350">
 
 
 

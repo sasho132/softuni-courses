@@ -1,7 +1,9 @@
 <p align="center">
-  <img src="/assets/Software-University-logo.png" title="Softuni" width="350" />
+  <img src="/assets/Software-University-logo.png" title="Softuni" width="350">
   <a href="https://softuni.bg/">
-</p>
+</a></p>
+
+
 
 ### [Python Fundamentals January 2022](https://github.com/sasho1320/Softuni/tree/main/Python%20Fundamentals%20January%202022)
 Lists / Functions / Dictionaries / RegEx

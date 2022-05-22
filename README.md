@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="/assets/Software-University-logo.png" title="Softuni" width="350" href="https://softuni.bg/"/>
+  <img src="/assets/Software-University-logo.png" title="Softuni" width="350" />
+  <a href="https://softuni.bg/">
 </p>
 
 ### [Python Fundamentals January 2022](https://github.com/sasho1320/Softuni/tree/main/Python%20Fundamentals%20January%202022)

@@ -1,5 +1,6 @@
 <p align="center">
   <img src="/assets/Software-University-logo.png" width="350" title="Softuni">
+  <a href="https://softuni.bg">
 </p>
 
 

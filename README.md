@@ -1,8 +1,6 @@
-<p align="center">
+<p align="left">
   <img width="250" src="https://upload.wikimedia.org/wikipedia/commons/7/76/Logo_Software_University_%28SoftUni%29_-_blue.png" alt="SoftUni courses">
 </p>
-<br />
-<br />
 <h2 align="left">SoftUni courses</h2>
 <br />
 

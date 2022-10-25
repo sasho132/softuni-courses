@@ -1,0 +1,38 @@
+{% include 'base/base.html' %}
+<body>
+<div id="box">
+    <header>
+
+        <!-- navigation bar -->
+        <h1><a class="home" href="{% url 'index' %}">GamesPlay</a></h1>
+        <nav>
+            <a href="{% url 'dashboard' %}">Dashboard</a>
+            <a href="{% url 'game-create' %}">Create Game</a>
+            <a href="{% url 'profile-details' %}">Profile</a>
+        </nav>
+    </header>
+
+    <!-- create game section -->
+    <section id="create-page" class="auth">
+        <!-- create game form -->
+        <form id="{% url 'game-create' %}" method="post">
+            <div class="container">
+                <!-- create game paragraph -->
+                <h1>Create Game</h1>
+
+                {{ form }}
+                {% csrf_token %}
+
+                <!-- create game button -->
+                <input class="btn submit" type="submit" value="Create Game">
+            </div>
+        </form>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        &copy;SoftUni Team 2022. All rights reserved.
+    </footer>
+</div>
+
+</body>

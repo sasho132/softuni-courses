@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <body>
+    <div id="container">
+        <header id="site-header">
+
+            <nav class="navbar">
+                <section class="navbar-dashboard">
+                    <a href="{% url 'home-page' %}">Dashboard</a>
+                    <div id="user">
+                        <span>Welcome, {{ profile.first_name }}</span>
+                        <a class="button" href="{% url 'add-book' %}">Add Book</a>
+                        <a class="button" href="{% url 'profile-details' %}">Profile</a>
+                    </div>
+                </section>
+            </nav>
+        </header>
+
+
+        <section id="dashboard-page" class="dashboard">
+            <h1>Dashboard</h1>
+
+            {% if not books %}
+                <p class="no-books">No books in database!</p>
+            {% else %}
+
+                {% for book in books %}
+                    <ul class="my-books-list">
+                        {% for b in book %}
+                            <li class="myBooks">
+                                <h3>{{ b.title }}</h3>
+                                <p>Type: {{ b.type }}</p>
+                                <p class="img"><img src="{{ b.image }}" alt="{{ b.title }}"></p>
+                                <a class="button" href="{% url 'details-book' pk=b.pk %}">Details</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+
+                {% endfor %}
+
+            {% endif %}
+        </section>
+
+        <footer id="site-footer">
+            <p>Python Web Basics Retake Exam @SoftUni</p>
+        </footer>
+    </div>
+    </body>
+
+{% endblock %}
+

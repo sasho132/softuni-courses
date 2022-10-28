@@ -1,0 +1,51 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'styles/style.css' %}">
+    <title>GamesPlay</title>
+</head>
+
+<body>
+<div id="box">
+    <header>
+
+        <h1><a class="home" href="{% url 'home-page' %}">GamesPlay</a></h1>
+        <nav>
+            <a href="{% url 'dashboard' %}">Dashboard</a>
+            <a href="{% url 'game-create' %}">Create Game</a>
+            <a href="{% url 'profile-details' %}">Profile</a>
+        </nav>
+    </header>
+
+    {% if not games %}
+        <p class="no-articles">No games yet</p>
+
+    {% else %}
+        <section id="welcome-world">
+            {% for game in games %}
+                <div class="game">
+                    <div class="image-wrap">
+                        <img src="{{ game.image_url }}"
+                             alt="{{ game.title }}">
+                    </div>
+                    <h3>{{ game.title }}</h3>
+                    <h1>{{ game.category }}</h1>
+                    <div class="data-buttons">
+                        <a href="{% url 'game-details' pk=game.pk %}" class="btn details-btn">Details</a>
+                    </div>
+                </div>
+            {% endfor %}
+        </section>
+
+    {% endif %}
+    <footer>
+        &copy;SoftUni Team 2022. All rights reserved.
+    </footer>
+</div>
+</body>
+</html>

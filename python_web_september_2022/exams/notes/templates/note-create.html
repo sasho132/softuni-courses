@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+    <body>
+    <header>
+        <nav>
+            <ul>
+                <li class="img"><img src="{% static 'images/note.png' %}" alt="Note"/></li>
+                <li><a href="{% url 'home-page' %}">Notes</a></li>
+                <li class="right"><a href="{% url 'profile-details' %}">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="body">
+
+        <h1>Add Note</h1>
+
+        <div class="form">
+            <form method="POST">
+                {{ form }}
+                <input type="submit" value="Publish"/>
+                {% csrf_token %}
+            </form>
+        </div>
+
+    </div>
+
+    <footer>
+        <div>Python Web Basics Exam @SoftUni</div>
+    </footer>
+
+    </body>
+
+{% endblock %}

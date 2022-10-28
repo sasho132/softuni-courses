@@ -1,0 +1,53 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'styles/style.css' %}">
+    <title>GamesPlay</title>
+</head>
+
+<body>
+<div id="box">
+    <header>
+
+        <h1><a class="home" href="{% url 'home-page' %}">GamesPlay</a></h1>
+        <nav>
+            <a href="{% url 'dashboard' %}">Dashboard</a>
+            <a href="{% url 'game-create' %}">Create Game</a>
+            <a href="{% url 'profile-details' %}">Profile</a>
+        </nav>
+    </header>
+
+    <section id="game-details">
+        <h1>Profile Details</h1>
+        <div class="info-section">
+            <div class="game-header">
+                {% if not profile.profile_picture %}
+                <img class="game-img" src="{% static 'images/default-user.jpg' %}" alt='profile-image'/>
+                {% else %}
+                <img class="game-img" src="{{ profile.profile_image }}" alt='profile-image'/>
+                {% endif %}
+                <h1>{{ profile_names }}</h1>
+
+                <p class="text">Email: {{ profile.email }}</p>
+                <p class="text">Age: {{ profile.age }}</p>
+                <p class="text">Total games: {{ total_games }}</p>
+                <p class="text">Average rating: {{ average_rating }}</p>
+                <div class="buttons">
+                    <a href="{% url 'profile-edit' %}" class="button">Edit</a>
+                    <a href="{% url 'profile-delete' %}" class="button">Delete</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        &copy;SoftUni Team 2022. All rights reserved.
+    </footer>
+</div>
+</body>
+</html>

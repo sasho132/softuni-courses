@@ -69,7 +69,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'petstagram_db',
         'USER': 'postgres',
-        'PASSWORD': '8Dnkp2NBusxXDZ4aTGo2',
+        'PASSWORD': 'postgres1320',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
@@ -104,11 +104,9 @@ USE_I18N = True
 
 USE_TZ = True
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/4.1/howto/static-files/
-
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [BASE_DIR / 'static']
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 

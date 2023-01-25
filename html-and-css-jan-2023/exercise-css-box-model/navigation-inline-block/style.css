@@ -1,0 +1,35 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    margin: 20px 100px;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.nav h1 {
+    margin-right: 40px;
+}
+
+.nav ul {
+    margin-top: 26px;
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #019a3c;
+}
+
+hr {
+    border-style: solid;
+    border-color: black;
+}

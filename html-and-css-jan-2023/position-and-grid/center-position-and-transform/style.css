@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 14px 28px;
+    padding-bottom: 60px;
+    width: 400px;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card img {
+    width: 100%;
+    top: -86%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text-container h3 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+}
+
+.text-container p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 153, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 2px;
+    right: 24px;
+    position: absolute;
+}

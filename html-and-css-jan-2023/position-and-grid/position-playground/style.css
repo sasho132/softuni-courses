@@ -1,0 +1,20 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css);
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.card1 {
+    background-image: linear-gradient(to right, #185d9d, #3fc6a1);
+}
+
+.card2 {
+    background-image: linear-gradient(to right, #a93475, #d07f18);
+}
+
+.card {
+    display: block;
+    position: absolute;
+}

@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(238, 238, 238);
+    margin: 20px 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-size: 1em;
+    font-family: Georgia, serif;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+.header {
+    display: inline-flex;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.title {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    width: 40%;
+    display: flex;
+}
+
+nav {
+    display: flex;
+}
+
+.navigation {
+    width: 60%;
+}
+
+.navigation ul {
+    justify-content: right;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    width: 100%;
+}
+
+.navigation li {
+    display: flex;
+}
+
+.navigation li:last-child {
+    margin-right: 10px;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.25);
+    outline: 2px solid black;
+    outline-offset: 8px;
+}
+
+.img1 {
+    float: right;
+    margin: 10px 20px 40px 40px;
+}
+
+.img2 {
+    float: left;
+    margin: 10px 40px 40px 10px;
+}
+
+
+main {
+    display: flex;
+}
+
+article {
+    width: 80%;
+}
+
+aside {
+    margin-right: 120px;
+}
+
+.blockquote-par {
+    display: inline-flex;
+}
+
+.blockquote-par p {
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.blockquote-par blockquote {
+    display: flex;
+    position: relative;
+    width: 50%;
+    color: #5a6063;
+    border-left: 2px solid #dddddd;
+}
+
+.author-name {
+    position: absolute;
+    top: 220px;
+    left: 100px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

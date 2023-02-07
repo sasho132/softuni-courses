@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.container, section {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 65vw;
+}
+
+.container span {
+    border: 1px solid black;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.container .week {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container .notes {
+    flex-direction: column;
+}
+
+.notes span {
+    flex-grow: 1;
+}
+
+.workweek, .weekend {
+    width: 100%;
+}

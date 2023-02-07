@@ -1,0 +1,35 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #eee;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header, main, aside, footer {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    color: #000;
+    margin: 10px;
+    box-shadow: 4px 4px lightgray;
+}
+
+header, footer {
+    flex-basis: 100%;
+}
+
+main, aside {
+    height: 40vh;
+}
+
+main {
+    flex: 8 1 40rem;
+}
+
+aside {
+    flex: 20 1 20rem;
+}

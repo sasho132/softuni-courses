@@ -4,11 +4,12 @@
 
 .container, section {
     display: flex;
-    align-items: center;
 }
 
 .container {
     max-width: 65vw;
+    overflow: hidden;
+    height: 200px;
 }
 
 .container span {
@@ -17,19 +18,25 @@
     flex-grow: 1;
 }
 
-.container .week {
+.week {
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.container .notes {
+.workweek, .weekend {
+    width: 100%;
+}
+
+.notes {
     flex-direction: column;
 }
 
-.notes span {
-    flex-grow: 1;
+.notes {
+    width: 140px;
+    align-items: start;
 }
 
-.workweek, .weekend {
-    width: 100%;
+.notes span {
+    width: 140px;
+    align-self: flex-start;
 }

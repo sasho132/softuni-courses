@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css2?family=Mulish&display=swap);
+
+.body::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    opacity: 0.2;
+}
+
+body {
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Mulish", Arial sans-serif;
+}
+
+.form-container {
+    background-image: url(../images/form-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    padding: 60px 40px;
+    width: 50%;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.form-container form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-container form h1 {
+    padding-bottom: 18px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+
+.input-group .names {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+
+.input-group .names input {
+    margin-top: 10px;
+}
+
+.input-group input {
+    border-radius: 20px;
+    border: 1px solid #d9d9d9;
+    background-color: #f9f9f9;  
+}
+
+.input-group input:hover {
+    border-color: #ae3c33;
+}
+
+.input-group input:focus {
+    outline: solid 2px #ae3c33;
+}
+
+.input-group label {
+    color: #676767;
+}
+
+.names {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.names label {
+    width: 100%;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.checkbox input {
+    width: 14px;
+    margin: 0;
+}
+
+.checkbox label {
+    font-size: 12px;
+}
+
+.btn {
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    width: 120px;
+    height: 32px;
+    font-size: 12px;
+    background-color: #ae3c33;
+    border-style: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 100px;
+    color: #fafafa;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}
+
+.btn:hover {
+  background-color: #fafafa;
+  border-style: solid;
+  border-color: #ae3c33;
+  color: #ae3c33;
+}

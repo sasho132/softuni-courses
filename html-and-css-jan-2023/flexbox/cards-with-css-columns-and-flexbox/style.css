@@ -4,22 +4,29 @@
 
 body {
     background-color: rgb(238, 238, 238);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .cards-layout.masonry {
-    display: grid;
-    grid-template-columns: repeat(3, 210px);
+    display: flex;
+    flex-flow: row wrap;
     gap: 20px;
-    width: 80%;
-    justify-content: center;
-    align-items: center;
+}
+
+.cards-layout.flex {
+    width: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+.cards-layout.masonry .card-col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .card {
-    height: 520px;
+    width: 210px;
     overflow: hidden;
     object-fit: contain;
     border: 1px solid #cccccc;

@@ -1,0 +1,132 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #e9e9e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 60vh;
+    flex-basis: 50%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+/* --- WELCOME --- */
+
+.welcome::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    position: absolute;
+    opacity: 0.2;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    padding: 20px;
+}
+
+.welcome p {
+    font-weight: bold;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.titles h2 {
+    font-weight: lighter;
+    font-size: 28px;
+}
+
+.titles h3 {
+    font-weight: normal;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons i:not(:last-child) {
+    margin-right: 8px;
+}
+
+.sign-in-form {
+    background-color: #fafafa;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+/* --- SIGN-IN-FORM --- */
+
+.sign-in-form {
+    padding: 40px;
+    color: #d4d4d4;
+}
+
+.sign-in-form form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.sign-in-form .register {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sign-in-form .input {
+    border: 0;
+    background-color: #fafafa;
+    border-bottom: 2px solid #d4d4d4;
+}
+
+.sign-in-form .input:focus {
+    outline: 0;
+}
+
+.register {
+    margin-top: 20px;
+}
+
+.register .btn {
+    background-color: black;
+    color: #fff;
+    border: 0;
+    padding: 6px 26px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.register a {
+    color: #757575;
+}

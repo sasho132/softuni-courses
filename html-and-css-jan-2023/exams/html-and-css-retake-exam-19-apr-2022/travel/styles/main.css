@@ -1,0 +1,214 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+/* --- HEADER --- */
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 60px 100px 0 100px;
+    color: #4e5874;
+    align-items: self-start;
+}
+
+.header .logo {
+    background: rgb(207, 171, 59);
+    background: linear-gradient(
+        180deg,
+        rgba(207, 171, 59, 1) 0%,
+        rgba(150, 105, 14, 1) 100%
+    );
+    padding: 20px;
+    position: absolute;
+    margin-left: 60px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+    padding: 0 60px 20px 60px;
+}
+
+.navigation .nav-upper {
+    display: flex;
+    width: 80%;
+    gap: 40px;
+    justify-content: flex-end;
+}
+
+.nav-upper-item {
+    text-align: center;
+    cursor: pointer;
+}
+
+.navigation .nav-down {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.nav-down-item {
+    cursor: pointer;
+}
+
+.slider {
+    object-fit: cover;
+    overflow: hidden;
+    background-image: url("../images/slider.jpg");
+    background-position: center;
+    width: 100%;
+}
+
+.shuttle::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.shuttle {
+    color: #fff;
+    width: 40%;
+    margin: 280px auto 100px 60px;
+    padding: 28px 20px;
+    position: relative;
+}
+
+.shuttle > * {
+    position: relative;
+    z-index: 2;
+}
+
+.shuttle h2 {
+    margin-bottom: 20px;
+}
+
+.shuttle p {
+    margin-bottom: 20px;
+}
+
+.shuttle .btn {
+    padding: 10px 20px;
+    background: none;
+    color: #fda00b;
+    border: 2px solid #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* --- MAIN --- */
+
+.card-section {
+    margin: 0 100px;
+    background: rgb(207, 171, 59);
+    background: linear-gradient(
+        270deg,
+        rgba(207, 171, 59, 1) 0%,
+        rgba(150, 105, 14, 1) 100%
+    );
+    text-align: center;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 40%;
+    color: #fff;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+}
+
+.card-list {
+    text-align: left;
+}
+
+.card-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.card-services {
+    margin: 0 160px;
+    text-align: center;
+    color: #4e5874;
+}
+
+.card-services h2 {
+    font-weight: 400;
+    font-size: 42px;
+    margin-top: 40px;
+}
+
+.card-services p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.services-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-item {
+    width: 18%;
+}
+
+.item-img {
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 100%;
+    outline: 2px solid black;
+    outline-offset: 4px;
+}
+
+.item-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.newsletter {
+    background-color: #b58d10;
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+}
+
+.news-btn {
+    margin-top: 10px 20px;
+    padding: 10px 20px;
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+/* --- FOOTER --- */
+
+footer {
+    margin: 0 100px;
+    padding: 20px 0;
+    text-align: center;
+}

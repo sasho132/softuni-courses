@@ -1,0 +1,259 @@
+:root {
+    --blue: #008cba;
+}
+
+
+body {
+    font-family: Helvetica, sans-serif;
+    color: #4a4545;
+}
+
+.title {
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* --- HEADER --- */
+
+.header {
+    display: flex;
+    padding: 1.5rem 10rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .title {
+    font-weight: normal;
+}
+
+.header .title span {
+    color: var(--blue);
+}
+
+.navigation .nav-list {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.nav-list .nav-item:nth-child(1) {
+    border-bottom: 4px solid var(--blue);
+    padding-bottom: 0.5rem;
+}
+
+.hero .hero-img {
+    position: relative;
+    width: 100%;
+}
+
+
+.hero .promote::before {
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    z-index: -1;
+}
+
+.hero .promote {
+    display: inline-block;
+    position: absolute;
+    width: 34%;
+    top: 15rem;
+    left: 15rem;
+    padding: 1rem;
+    z-index: 1;
+}
+
+.hero .promote-header {
+    font-weight: normal;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.promote .promote-btn {
+    all: unset;
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 0.3rem 2.5rem;
+    color: #fff;
+    background-color: var(--blue);
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+/* --- MAIN --- */
+
+.welcome {
+    padding: 1.5rem 10rem;
+    text-align: center;
+}
+
+.welcome .welcome-title {
+    padding-bottom: 2rem;
+}
+
+.welcome-title span {
+    padding-bottom: 0.5rem;
+    border-bottom: 4px solid var(--blue);
+}
+
+.welcome .welcome-desc {
+    padding-bottom: 2rem;
+}
+
+.welcome .welcome-btn {
+    all: unset;
+    padding: 0.7rem 2rem;
+    background-color: #454545;
+    color: #fff;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.services {
+    background-color: #eef0f1;
+}
+
+.services .services-title {
+    padding: 2.5rem 0;
+    text-align: center;
+}
+
+.services-title span {
+    padding-bottom: 0.5rem;
+    border-bottom: 4px solid #454545;
+}
+
+.services .serv-cards {
+    display: flex;
+    padding: 0 10rem 3rem 10rem;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.services .card {
+    width: 30%;
+    overflow: hidden;
+    border-radius: 0.3rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+.card .card-title {
+    padding-top: 1rem;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.card .card-desc {
+    padding: 1rem;
+}
+
+
+.card .card-btn {
+    all: unset;
+    margin-bottom: 2rem;
+    background-color: #454545;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.subscribe {
+    background-color: #393f43;
+    color: #fff;
+    text-align: center;
+}
+
+.subscribe .subscr-title {
+    padding: 2rem 0;
+}
+
+.subscribe .subscr-title span {
+    padding-bottom: 0.5rem;
+    border-bottom: 4px solid #fff;
+}
+
+.subscribe .subscr-desc {
+    padding-bottom: 1.5rem;
+}
+
+.subscribe .subscr-form {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    padding-bottom: 3rem;
+} 
+
+.subscribe .subscr-form input {
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: #545a5e;
+    width: 40%;
+}
+
+.subscribe .subscr-btn {
+    all: unset;
+    padding: 0.3rem 2rem;
+    background-color: #6abfff;
+    color: #fff;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+}
+
+/* --- FOOTER --- */
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 10rem;
+    justify-content: space-between;
+    background-color: #2f3539;
+}
+
+.links .links-list {
+    padding-left: 1.5rem;
+}
+
+.links .links-list li:not(:last-child) {
+    padding-bottom: 0.5rem;
+}
+
+.links .links-title {
+    font-size: 1.2rem;
+}
+
+.links .list-icons {
+    padding-left: 7rem;
+}
+
+.links .icons {
+    color: #fff;
+}
+
+.links .icons i:not(:last-child) {
+    padding-right: 1rem;
+}
+
+.copyright {
+    padding: 0.7rem 0;
+    color: #fff;
+    text-align: center;
+    background-color: #23282c;
+}
+
+.copyright span {
+    color: #17779d;
+}

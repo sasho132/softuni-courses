@@ -1,4 +1,9 @@
-function validate(x1, y1, x2, y2) {
+function validate(arr) {
+    let x1 = arr[0];
+    let y1 = arr[1];
+    let x2 = arr[2];
+    let y2 = arr[3];
+    
     let firstCheck = Number.isInteger(Math.sqrt(((0 - x1) ** 2) + ((0 - y1) ** 2)));
     let secondCheck = Number.isInteger(Math.sqrt(((x2 - 0) ** 2) + ((y2 - 0) ** 2)));
     let thirdCheck = Number.isInteger(Math.sqrt(((x2 - x1) ** 2) + ((y2 - y1) ** 2)));
@@ -22,5 +27,5 @@ function validate(x1, y1, x2, y2) {
     }
 }
 
-validate(3, 0, 0, 4);
-validate(2, 1, 1, 1);
+validate([3, 0, 0, 4]);
+validate([2, 1, 1, 1]);

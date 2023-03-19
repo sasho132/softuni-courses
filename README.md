@@ -11,3 +11,4 @@
 |                 [Python OOP June 2022](https://softuni.bg/trainings/3704/python-advanced-may-2022)                  | [Link](https://softuni.bg/certificates/details/140904/f5d21a1b) |
 |                 [Python Web Basic September 2022](https://softuni.bg/trainings/3858/python-web-basics-september-2022)                  | [Link](https://softuni.bg/certificates/details/147065/3b35598e) |
 |                 [Python Web Framework November 2022](https://softuni.bg/trainings/3859/python-web-framework-november-2022)                  | [Link](https://softuni.bg/certificates/details/152963/2a09954a) |
+|                 [HTML & CSS January 2023](https://softuni.bg/trainings/3975/html-and-css-january-2023)                  | [Link](https://softuni.bg/certificates/details/163083/4cfe0a26) |

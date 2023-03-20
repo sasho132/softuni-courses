@@ -1,8 +1,3 @@
-// function solve() {
-//   const input = JSON.parse(document.querySelector("#exercise > textarea:nth-child(2)").value);
-//   console.log(input);
-// }
-
 function solve() {
   let generateBtn = document.querySelector('button');
   let buyBtn = Array.from(document.querySelectorAll('button'))[1];

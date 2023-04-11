@@ -3,6 +3,7 @@ window.addEventListener("load", solve);
 function solve() {
     const reviewList = document.getElementById("review-list");
     const publishedList = document.getElementById('published-list');
+    const totalSprintPoints = document.getElementById('total-sprint-points');
     const clearBtn = document.getElementById('clear-btn');
     const publishBtn = document.getElementById("publish-btn");
 

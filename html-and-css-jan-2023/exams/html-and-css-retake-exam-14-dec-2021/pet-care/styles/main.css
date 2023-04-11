@@ -1,0 +1,161 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+.btn {
+    all: unset;
+    color: transparent;
+    padding: 0.7rem 1.7rem;
+    border-radius: 2rem;
+}
+
+/* --- HEADER --- */
+
+.header .header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 12rem;
+    background-color: #fff;
+}
+
+.navigation .nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.navigation .nav-list a {
+    text-decoration: none;
+    color: #082554;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero .hero-img {
+    position: absolute;
+}
+
+.hero .hero-wrapper {
+    display: flex;
+    position: relative;
+    padding: 8rem 12rem 3rem 12rem;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .hero-desc {
+    padding: 2rem 0;
+}
+
+.hero .hero-title {
+    font-weight: 100;
+    font-size: 4rem;
+    line-height: 4.5rem;
+}
+
+.hero .hero-title span {
+    font-weight: 900;
+}
+
+.hero .dog-img {
+    width: 70%;
+}
+
+.hero .hero-btn {
+    background-color: #fff;
+    color: #ff3300;
+}
+
+/* --- MAIN --- */
+
+.services {
+    padding: 2rem 12rem;
+}
+
+
+.services .services-wrapper {
+    text-align: center;
+    padding: 0 12rem;
+}
+
+.services .services-title {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.services .services-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding-top: 5rem;
+}
+
+.service {
+    padding-top: 3rem;
+    border: 1px solid #ffc7c2;
+    border-radius: 0.5rem;
+    padding: 3rem;
+    text-align: center;
+}
+
+.services .service-images {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.service .service-img {
+    position: absolute;
+}
+
+.pet-care {
+    display: flex;
+    padding: 8rem 12rem 3rem 12rem;
+    gap: 5rem;
+    align-items: center;
+}
+
+.pet-care .pet-care-title {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.pet-care .pet-care-title span {
+    font-weight: 800;
+}
+
+.pet-care .pet-care-btn {
+    margin-top: 2rem;
+    padding: 0.8rem 2.5rem;
+    background-color: #f0482d;
+    color: #fff;
+}
+
+.pet-care .pet-care-desc p {
+    padding: 2rem 0;
+}
+
+.why {
+    padding-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-bg {
+    position: absolute;
+}
+
+.why-cont {
+    position: relative;
+    text-align: center;
+}

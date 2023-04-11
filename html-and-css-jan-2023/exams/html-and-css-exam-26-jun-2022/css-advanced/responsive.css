@@ -1,0 +1,30 @@
+@media screen and (max-width: 600px) {
+    main .left-to-right article {
+        width: 90%;
+        border-radius: 20%;
+        padding: 20px 20px 20px 28px;
+        margin: auto;
+    }
+
+    main .left-to-right article button {
+        display: none;
+    }
+
+    main .left-to-right {
+        max-height: 540px;
+    }
+
+    main section:nth-child(2),
+    main section:nth-child(4) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main section:nth-child(2) button {
+        display: none;
+    }
+
+    main section:nth-child(4) article {
+        padding: 4px 80px;
+    }
+};

@@ -1,0 +1,168 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    all: unset;
+    background-color: #33010b;
+    padding: 0.3rem 1.5rem;
+    color: #fff;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+/* --- HEADER --- */
+
+.header {
+    background-image: url("../images/landing-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% 40%;
+    height: 80vh;
+}
+
+.header-nav {
+    padding: 2.5rem 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .nav-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.header .nav {
+    display: flex;
+    gap: 1.5rem;
+    color: #01050a;
+}
+
+.header .header-wrapper {
+    padding: 5rem 12rem;
+}
+
+.header .header-title {
+    font-size: 3rem;
+}
+
+.header .header-subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.header .header-desc {
+    padding: 2rem 0;
+}
+
+/* --- MAIN --- */
+
+.places {
+    padding: 3rem 12rem 1rem 12rem;
+}
+
+.places .places-title-wrap {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.places .places-title {
+    font-size: 2rem;
+}
+
+.places .places-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1rem;
+    column-gap: 3rem;
+}
+
+.card {
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+.card .card-img {
+    height: 50%;
+    object-fit: cover;
+}
+
+.card .card-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.card .card-text {
+    height: 50%;
+    text-align: center;
+    padding-top: 1rem;
+    padding: 0 1.5rem;
+}
+
+.card .card-title {
+    padding: 1rem 0;
+}
+
+.card .card-desc {
+    padding-bottom: 1.5rem;
+}
+
+.card-btn {
+    all: unset;
+    border: 2px solid black;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+/* --- FOOTER --- */
+
+.footer {
+    background-color: #000000;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer .footer-wrapper {
+    padding: 3rem 12rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .footer-title {
+    color: #fff;
+}
+
+.footer .offers-item:not(:last-child) {
+    padding-bottom: 1rem;
+}
+
+.footer .about-item:not(:last-child) {
+    padding-bottom: 1rem;
+}
+
+.footer .follow {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .follow-icons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
